@@ -1,0 +1,91 @@
+.background-div{
+    width: 35%;
+    color: #102252;
+    margin-top: 10%;
+    margin-left: 20%;           
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 900;
+font-style: normal;
+padding-bottom: 8.5%;
+padding-top: 8.5%;
+}
+
+#contact-btn{
+    background-color: #102252;
+    color: #acb3df;
+}
+#crafting-txt{
+    
+}
+#first-img{
+    margin-top: -80%;
+    margin-left: 120%;
+}
+.second-div{
+    background-color: #102252;
+    color: #acb3df;
+    text-align: center;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%; 
+}
+.card-body{
+    height: 40vh;
+}
+
+
+header {
+    background-color: #102252;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+
+@media (max-width: 767px) {
+#first-img {
+display: none; 
+}
+
+.background-div{
+width: 70%;
+}
+
+
+.card-body{
+    height: auto;
+}
+
+}
