@@ -24,17 +24,31 @@
     </section>
     
     <section class="contact-form" style="margin-top: 5%;">
+        <form method="post" action="https://formsubmit.co/ochiaghakella15@gmail.com">
         <h2>Get in Touch</h2>
-        <form action="https://formsubmit.co/ochiaghakella15@gmail.com" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="number" name="number" placeholder="Your Phone Number" required>
-            <input type="text" name="subject" placeholder="Site Type" required>
-            <textarea name="message" placeholder="Additional Information" required></textarea>
-            <input type="hidden" name="_next" value="https://kellbie.github.io/Contact-Us/thanks.html">
-            <input type="hidden" name="_autoresponse" value="Thank You For Submitting. We would get back to you as soon as we can.">  
-            <button type="submit">Send Message</button>
-        </form>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Full Name" name="Full Name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="User Email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Number</label>
+            <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone Number" name="User Phone Number">
+          </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Site Type</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="E-Commerce Site" name="Site Type">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Site Description</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Site Description"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
     </section>
     
     <footer>
