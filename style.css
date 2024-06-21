@@ -7,8 +7,8 @@ font-family: "Montserrat", sans-serif;
 font-optical-sizing: auto;
 font-weight: 900;
 font-style: normal;
-padding-bottom: 8.5%;
-padding-top: 8.5%;
+padding-bottom: 33%;
+padding-top: 33%;
 }
 
 #contact-btn{
@@ -89,3 +89,24 @@ width: 70%;
 }
 
 }
+
+
+
+  /* Styling for the background-div */
+  .background-div{
+    position: relative;
+    opacity: 0;
+    transform: translateY(300px); /* Start position for slide-up */
+    transition: opacity 3s ease, transform 1s ease; /* Transitions for opacity and transform */
+  }
+
+  /* Styling for the content inside the background-div */
+  .background-div .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  }
+
